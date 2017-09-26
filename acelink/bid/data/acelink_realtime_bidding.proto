@@ -1,0 +1,20 @@
+syntax = "proto2";
+package acelink;
+
+message BidRequest
+{
+	required string bidid = 1; // bid request id,[自主生成]
+	
+	message Site
+	{
+		optional string page = 1;  // 当前页面url,[外部传入GetUrl]
+		repeated int64 page_category = 2; // 当前页面分类，【外部传入，暂时不用】
+		optional string referer = 3;	// referrer url,[外部传入 referrerUrl]
+		repeated int64 site_category = 4;		// 当前网站分类，[外部传入]
+		repeated int64 exclude_ad_category = 5; // 屏蔽的广告类别
+		repeated string exclude_landingpage = 6;	// 屏蔽的落地页
+		optional string name = 7;
+	}
+	
+	
+}

@@ -1,0 +1,121 @@
+{
+    "w300_h250": {
+        "width": 300,
+        "height": 250,
+        "displayTypes": [0, 1],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+    },
+	
+	"w960_h90": {
+		"width": 960,
+		"height": 90,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w336_h280": {
+		"width": 336,
+		"height": 280,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w200_h200": {
+		"width": 200,
+		"height": 200,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w728_h90": {
+		"width": 728,
+		"height": 90,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w640_h60": {
+		"width": 640,
+		"height": 60,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w640_h80": {
+		"width": 640,
+		"height": 80,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w250_h250": {
+		"width": 250,
+		"height": 250,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w960_h60": {
+		"width": 960,
+		"height": 60,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w468_h60": {
+		"width": 468,
+		"height": 60,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w160_h600": {
+		"width": 160,
+		"height": 600,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	},
+	
+	"w120_h600": {
+		"width": 120,
+		"height": 600,
+		"displayTypes": [0],
+		"materialsTypes": [0, 1],
+		"materialformats": [0, 1, 2, 3],
+		"pictureMaxSize": 55,
+		"flashMaxSize": 100
+	}
+}
