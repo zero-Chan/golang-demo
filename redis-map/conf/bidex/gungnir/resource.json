@@ -1,0 +1,6 @@
+{
+    "Root": "/home/cza/workspace/cza-private/zero-Chan/godemo/redis-map/resources",
+    "AdDict":"/dict",
+    "AdExclusion":"/media/exclusion",
+    "LatencyInfoFile":"/latency/adx_latency.json"
+}
