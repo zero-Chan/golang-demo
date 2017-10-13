@@ -28,11 +28,11 @@ func main() {
 	//		return
 	//	}
 
-	err = rmqch.ExchangeDeclare("myfirstExchange", "direct", false, false, false, false, nil)
-	if err != nil {
-		fmt.Println("amqp new exchange fail:", err)
-		return
-	}
+	//	err = rmqch.ExchangeDeclare("myfirstExchange", "direct", false, false, false, false, nil)
+	//	if err != nil {
+	//		fmt.Println("amqp new exchange fail:", err)
+	//		return
+	//	}
 
 	var count int = 0
 

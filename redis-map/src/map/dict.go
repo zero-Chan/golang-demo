@@ -27,13 +27,19 @@ func main() {
 
 	// random get key
 	randomnums := []int{
-		10, 50, 100, // %
+		-1, 10, 50, 100, // %, -1 is get only one
 	}
 
 	for _, rnum := range randomnums {
-		getn := int64(N * rnum / 100)
-		keys := make([]int64, getn)
+		var getn int64
+		if rnum == -1 {
+			getn = 1
+		} else {
+			getn = int64(N * rnum / 100)
+		}
+
 		// get map is random
+		keys := make([]int64, getn)
 
 		var i int64
 		for key, _ := range gn_adx.Dict.AdvCate[20066].Adx {

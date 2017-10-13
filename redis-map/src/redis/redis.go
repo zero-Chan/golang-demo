@@ -33,19 +33,25 @@ func main() {
 		return
 	}
 
-	fmt.Printf("\n\n\n===== Start: get value in golang map =====\n")
+	fmt.Printf("\n\n\n===== Start: get value in redis hash =====\n")
 	N := len(gn_adx.Dict.AdvCate[20066].Adx)
 	fmt.Printf("N = [%d]\n", N)
 
 	// random get key
 	randomnums := []int{
-		10, 50, 100, // %
+		-1, 10, 50, 100, // %, -1 is get only one
 	}
 
 	for _, rnum := range randomnums {
-		getn := int64(N * rnum / 100)
-		keys := make([]string, getn)
+		var getn int64
+		if rnum == -1 {
+			getn = 1
+		} else {
+			getn = int64(N * rnum / 100)
+		}
+
 		// get map is random
+		keys := make([]string, getn)
 
 		var i int64
 		for key, _ := range gn_adx.Dict.AdvCate[20066].Adx {
