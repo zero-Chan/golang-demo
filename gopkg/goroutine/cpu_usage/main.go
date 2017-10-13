@@ -32,6 +32,7 @@ func main() {
 			buf := make([]byte, 10)
 
 			for {
+				time.Sleep(50 * time.Second)
 				f.Read(buf)
 			}
 		}()
